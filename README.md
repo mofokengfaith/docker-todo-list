@@ -1,3 +1,4 @@
+
 # Todo list exercise
 
 ### Install
@@ -33,4 +34,10 @@ Visit http://localhost:8080 in your browser
 > - Will be nice if you can git tag the tasks by number
 
 ### Solution
-Explain what you have done here and why...
+
+#### Build the docker file
+`docker build -t tm/node-web-app .`
+
+#### Run the docker file locally
+`docker run -p 8080:8080 -d tm/node-web-app`
+
